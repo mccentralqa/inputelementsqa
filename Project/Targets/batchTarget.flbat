@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="eclipseHelp"
+      Type="Eclipse Help"
+      Build="true"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="epub"
+      Type="EPUB"
+      Build="true"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="HTML5"
+      Type="HTML5"
+      Build="true"
+      LastBuilt="12/3/2015 2:42:48 PM"
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="htmlHelp"
+      Type="HTML Help"
+      Build="true"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF"
+      Type="PDF"
+      Build="true"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="webhelp"
+      Type="WebHelp"
+      Build="true"
+      LastBuilt="12/3/2015 2:43:39 PM"
+      LastPublished="" />
+  </Targets>
+</CatapultBatchTarget>

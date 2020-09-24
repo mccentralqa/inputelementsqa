@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2210" MadCap:lastWidth="1294">
+    <head>
+    </head>
+    <body>
+        <h1>All other Pseudo Classes</h1>
+        <div class="contain" id="empty">
+            <h3>:empty</h3>
+            <p>Specify a background color for empty p elements:</p>
+            <p>Empty p tag below should be 100 px wide, 20 px high, and red background</p>
+            <p class="empty">
+            </p>
+            <p>Configure when Bug "103166:We are writing true empty tags incorrectly in our output" is fixed</p>
+        </div>
+        <div class="contain" id="firstchild">
+            <h3>:first-child</h3>
+            <p>&#160;</p>
+            <div>
+                <p class="firstchild">This is the first child of the div- Text color should be red</p>
+                <p class="firstchild">This is the last child of the div- should have no color</p>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="lastchild">
+            <h3>:last-child</h3>
+            <p>&#160;</p>
+            <div>
+                <p class="lastchild">This is the first child of the div- should have no color</p>
+                <p class="lastchild">This is the last child of the div- text color should be green</p>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="nthchild">
+            <h3>:nth-child(n)</h3>
+            <p>In this example, we have pseudo class :nth-child set so that every 3rd element in the list will have a lime green color.</p>
+            <p style="font-style: italic;">:nth-child(3n)</p>
+            <ul class="nthchild">
+                <li>first</li>
+                <li>second</li>
+                <li>third- Text color should be lime green</li>
+                <li>fourth</li>
+                <li>fifth</li>
+                <li>sixth- Text color should be lime green</li>
+            </ul>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="nthlastchild">
+            <h3>:nth-last-child(n)</h3>
+            <p>In this example, we have pseudo class :nth-last-child set so that 5th element in the list will be highlighted</p>
+            <p style="font-style: italic;">:nth-last-child(2)</p>
+            <ol class="nthlastchild" MadCap:continue="true">
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+                <li>fourth</li>
+                <li>fifth- this element should be highlighted in yellow</li>
+                <li>sixth</li>
+            </ol>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="onlychild">
+            <h3>:only-child</h3>
+            <div class="onlychild">
+                <p>Text should be red as this is the only child of this div</p>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="firstoftype">
+            <h3>:first-of-type </h3>
+            <p>(Styles are found in "Complex Selectors" in the stylesheet)</p>
+            <p>&#160;</p>
+            <div class="firstoftype">
+                <h1>The Milky Way</h1>
+                <p>"Our existence is just one drop of water in the great cosmic ocean..."</p>
+                <p>The above paragraph's text should be larger, in italics, and blue</p>
+                <p>&#160;</p>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="lastoftype">
+            <h3>:last-of-type</h3>
+            <p>&#160;</p>
+            <div class="lastoftype">
+                <p>this is the first p- text should be normal</p>
+                <p>this is the middle p- text should be normal</p>
+                <p>this is the last p- text should be smaller and in italics (:last-of-type)</p>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="nthlastoftype">
+            <h3>:nth-last-of-type(n)</h3>
+            <p>&#160;</p>
+            <div class="nthlastoftype">
+                <p>this is the first p- text should be normal</p>
+                <p>this text should be larger and in italics (:nth-last-of-type)</p>
+                <p>this is the last p- text should be normal</p>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="nthoftype">
+            <h3>:nth-of-type(n)</h3>
+            <p>In this example, we have "&lt;li&gt;" set to nth-of-type(odd), so every odd list item should be highlighted grey.</p>
+            <p>&#160;</p>
+            <ul class="nthoftype">
+                <li>Item one</li>
+                <li>Item two</li>
+                <li>Item three</li>
+                <li>Item four</li>
+                <li>Item five</li>
+                <li>Item six</li>
+            </ul>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="onlyoftype">
+            <h3>:only-of-type</h3>
+            <p>&#160;</p>
+            <ul class="onlyoftype">
+                <li>I am alone and I am mad as hedoublehockeysticks about it! (red)</li>
+            </ul>
+            <ul class="onlyoftype">
+                <li>We are together</li>
+                <li>We are together</li>
+                <li>We are together</li>
+            </ul>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="lang">
+            <h3>:lang(language)</h3>
+            <p>(Styles are found in "Complex Selectors" in the stylesheet)</p>
+            <p>&#160;</p>
+            <p>It is polite to welcome people in their own language:</p>
+            <div class="lang">
+                <p lang="en">English (gold, 20pt)--&gt; </p>
+                <p lang="fr-ca">French (purple, 20pt)--&gt; &#160;</p>
+                <p lang="zh">Chinese (light green, 20pt)--&gt; &#160;</p>
+                <p lang="de">German (green,  20pt)--&gt; &#160;</p>
+                <p lang="es">Spanish (turquoise, 20pt)--&gt;&#160;</p>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="contain" id="not">
+            <h3>:not(selector)</h3>
+            <p>In this example, the first “I should...” line of text is set to the "blue" class and should render blue. The next line is just a regular paragraph, but because we used :not(#blue), any p in this div that does not use the "blue" class will render red and 20pt</p>
+            <div class="not">
+                <p class="blue">I should be blue text because I belong to the "blue" class</p>
+                <p>I should be 20pt and red text because I do not belong to the "blue" class</p>
+            </div>
+        </div>
+    </body>
+</html>

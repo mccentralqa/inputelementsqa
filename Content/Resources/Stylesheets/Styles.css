@@ -1,0 +1,612 @@
+﻿/*<meta />*/
+
+body
+{
+	font-family: Arial;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ol,
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
+}
+
+p.red
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+p.red:hover
+{
+	color: #ff0000;
+}
+
+a
+{
+	
+}
+
+input:focus
+{
+	
+}
+
+input:out-of-range
+{
+	border: 2px solid red;
+}
+
+p:empty
+{
+	width: 100px;
+	height: 20px;
+	background: red;
+}
+
+@media HTML5
+{
+	input:enabled[type=text]
+	{
+		background-color: #ffff00;
+	}
+
+	input:disabled
+	{
+		background-color: #a9a9a9;
+	}
+
+	input:enabled
+	{
+		
+	}
+
+	input.checked:checked
+	{
+		height: 50px;
+		width: 50px;
+	}
+
+	span.red
+	{
+		background: red;
+	}
+
+	:indeterminate,
+	:indeterminate + span
+	{
+		background: limegreen;
+	}
+
+	input.readwrite:read-write
+	{
+		background-color: #ff00ff;
+		color: gold;
+	}
+}
+
+div.color
+{
+	padding-top: 10px;
+	background-color: #b0c4de;
+	padding-left: 10px;
+	height: 300px;
+	width: 300px;
+}
+
+input.colors:enabled
+{
+	
+}
+
+input.colors:disabled
+{
+	background-color: #d3d3d3;
+}
+
+input.inputColors
+{
+	
+}
+
+input.checked:disabled
+{
+	
+}
+
+input:enabled
+{
+	
+}
+
+input.inputColors:enabled
+{
+	background-color: #ffff00;
+}
+
+input.inputColors:focus
+{
+	background-color: #006400;
+}
+
+form
+{
+	
+}
+
+form#border
+{
+	border: solid 2px #000000;
+	padding: inherit;
+	background-color: #ffebcd;
+	width: 400px;
+}
+
+input.inputColors:disabled
+{
+	background-color: #dcdcdc;
+}
+
+input:in-range
+{
+	border: solid 3px #006400;
+}
+
+input.invalid:invalid
+{
+	border: solid 2px #000000;
+}
+
+input.valid:valid
+{
+	border: solid 3px #000000;
+}
+
+input:valid
+{
+	
+}
+
+input:invalid
+{
+	
+}
+
+input.validation
+{
+	
+}
+
+input.validation:invalid
+{
+	border: solid 3px #ff0000;
+}
+
+input.validation:valid
+{
+	border: ridge 3px #006400;
+	background-color: #48d1cc;
+}
+
+p.required
+{
+	color: #ff0000;
+}
+
+p.required::after
+{
+	content: '*';
+}
+
+input:optional
+{
+	
+}
+
+input.optional:optional
+{
+	border: solid 2px #a9a9a9;
+	background-color: #98fb98;
+}
+
+input.required
+{
+	color: #a52a2a;
+	font-style: italic;
+}
+
+input.required:required
+{
+	color: #ff0000;
+	font-style: italic;
+	background-color: #dcdcdc;
+	border: solid 2px #ff0000;
+}
+
+form.border
+{
+	border: solid 2px #000000;
+	padding: inherit;
+	background-color: #eee8aa;
+	width: 300px;
+}
+
+input.validation:invalid
+{
+	background: hsla(0, 90%, 70%, 1);
+}
+
+input.validation:valid
+{
+	background: hsla(100, 90%, 70%, 1);
+}
+
+body
+{
+	padding: 3em;
+}
+
+label
+{
+	display: block;
+}
+
+input.validation
+{
+	padding: 0.25em 0;
+	margin-bottom: 0.75em;
+}
+
+div.contain
+{
+	background-color: #add8e6;
+}
+
+input.readonly:read-only
+{
+	background-color: yellow;
+}
+
+::selection
+{
+	
+}
+
+input.readwrite:read-write
+{
+	
+}
+
+form.wide
+{
+	border: solid 2px #000000;
+	background-color: #eee8aa;
+	width: 500px;
+}
+
+form.superwide
+{
+	border: solid 2px #000000;
+	background-color: #eee8aa;
+	width: 800px;
+}
+
+a:link
+{
+	color: #0000ff;
+}
+
+a:visited
+{
+	color: #ff0000;
+}
+
+a:focus
+{
+	background-color: #ffff00;
+}
+
+a:hover
+{
+	color: #00ff00;
+}
+
+a:active
+{
+	color: #ff00ff;
+}
+
+div.target:target
+{
+	background-color: #ffc;
+	border: 2px solid #fcc;
+	box-shadow: 0.2em 0.2em 0.3em #888;
+	color: #0000ff;
+}
+
+div.contain:target
+{
+	background-color: #ffc;
+	border: 2px solid #fcc;
+	box-shadow: 0.2em 0.2em 0.3em #888;
+}
+
+h3:target
+{
+	background-color: #ffc;
+	border: 2px solid #fcc;
+	box-shadow: 0.2em 0.2em 0.3em #888;
+	color: #0000ff;
+}
+
+p.firstchild:first-child
+{
+	color: red;
+	font-style: italic;
+}
+
+p.lastchild:last-child
+{
+	color: green;
+	font-style: italic;
+}
+
+ul.nthchild li:nth-child(3n)
+{
+	color: lime;
+	
+}
+
+ol.nthlastchild
+{
+	width: 600px;
+	background-color: #808080;
+}
+
+ol.nthlastchild li:nth-last-child(2)
+{
+	background-color: #ffff00;
+}
+
+div.onlychild p:only-child
+{
+	color: red;
+}
+
+div.firstoftype p:first-of-type
+{
+	font-size: 1.25em;
+	font-style: italic;
+	color: blue;
+}
+
+div.lastoftype p:last-of-type
+{
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+div.nthlastoftype p:nth-last-of-type(2)
+{
+	font-style: italic;
+	font-size: 1.75em;
+}
+
+div.nthoftype p:nth-of-type
+{
+	
+}
+
+ul.nthoftype
+{
+	width: 400px;
+	background-color: green;
+}
+
+ul.nthoftype li:nth-of-type(odd)
+{
+	background-color: #696969;
+}
+
+ul.onlyoftype li:only-of-type
+{
+	color: #ff0000;
+}
+
+div.lang p:lang(en)::after	/*English*/
+{
+	color: gold;
+	content: "We welcome you!";
+	font-size: 20pt;
+}
+
+div.lang p:lang(fr-ca)::after	/*french Canadian*/
+{
+	color: #ff00ff;
+	content: "Nous vous souhaitons la bienvenue !";
+	font-size: 20pt;
+}
+
+div.lang p:lang(zh)::after	/*Chinese*/
+{
+	color: #2e8b57;
+	content: "我們歡迎您！";
+	font-size: 20pt;
+}
+
+div.lang p:lang(de)::after	/*German*/
+{
+	color: #006400;
+	content: "Wir begrüßen Sie !";
+	font-size: 20pt;
+}
+
+div.lang p:lang(es)::after	/*Spanish*/
+{
+	color: #00ced1;
+	content: "Le damos la bienvenida !";
+	font-size: 20pt;
+}
+
+div.not p.blue
+{
+	color: blue;
+	font-size: 12pt;
+}
+
+div.not p:not(\00002Eblue)
+{
+	color: red;
+	font-size: 20pt;
+}
+
+p.after::after
+{
+	color: blue;
+	content: ' - After original content and my color is blue.';
+}
+
+p.before::before
+{
+	color: green;
+	content: 'Before the original content and my color is green- ';
+}
+
+p.firstletter::first-letter
+{
+	color: gold;
+	font-style: italic;
+	font-size: 30pt;
+}
+
+p.firstline::first-line
+{
+	background-color: yellow;
+}
+
+p.selection::selection
+{
+	background-color: #000000;
+	color: gold;
+}
+
+ol.bgcolor
+{
+	background-color: #808080;
+}
+
+@media screen and (max-width: 70em)
+{
+	/* CSS rules here */
+}
+
+p[9text]
+{
+	color: bluel;
+}
+
+p:nth-child
+{
+	background-color: #ff00ff;
+}
+
+html
+{
+	background: radial-gradient(circle, lightblue  , cornflowerblue, blue );
+}
+
+@media print
+{
+	MadCap|menuProxy
+	{
+		background-color: #00ffff;
+	}
+}
+
+MadCap|conceptLink:hover
+{
+	
+}
+
+MadCap|xref:hover
+{
+	color: #ff00ff;
+}

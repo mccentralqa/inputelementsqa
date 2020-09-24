@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="936" MadCap:lastWidth="1103">
+    <head>
+    </head>
+    <body>
+        <h1>Pseudo Classes and Elements</h1>
+        <p>A CSS <i>pseudo-class</i> is a keyword added to selectors that specifies a special state of the element to be selected. For example :hover will apply a style when the user hovers over the element specified by the selector.</p>
+        <p>Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (:visited, for example), the status of its content (like :checked on some form elements), or the position of the mouse (like :hover which lets you know if the mouse is over an element or not).</p>
+        <p>&#160;</p>
+        <h3>Syntax</h3>
+        <p><span style="color: #a52a2a;">selector:pseudo-class</span>
+        </p>
+        <p> {</p>
+        <p style="text-indent: 0.5in;"><span style="color: #ff0000;">property</span>: <span style="color: #0000ff;">value</span>;</p>
+        <p>}</p>
+        <h3>Example</h3>
+        <p style="color: #a52a2a;">p.red:hover</p>
+        <p>{</p>
+        <p style="text-indent: 0.5in;"><span style="color: #ff0000;">color</span>: <span style="color: #0000ff;">#FF00FF</span>;</p>
+        <p>}</p>
+        <p>&#160;</p>
+        <p class="red">Place cursor over this text and see it's color change</p>
+        <p class="red">&#160;</p>
+        <p>Just like pseudo-classes, <i>pseudo-elements</i> are added to selectors but instead of describing a special state, they allow you to style certain parts of a document. For example, the ::selection pseudo-element allows you to change the "selection" color and text of an element specified by the selector.</p>
+        <p>&#160;</p>
+        <h3>Syntax</h3>
+        <p style="color: #a52a2a;">selector:::pseudo-element </p>
+        <p>{</p>
+        <p style="text-indent: 0.5in;"><span style="color: #ff0000;">property</span>:: <span style="color: #0000ff;">value</span>;</p>
+        <p>}</p>
+        <p>&#160;</p>
+        <h3>Example</h3>
+        <p style="color: #ff0000;">p::selection</p>
+        <p>{</p>
+        <p style="text-indent: 0.5in;"><span style="color: #ff0000;">background-color</span>:<span style="color: #0000ff;"> #000000</span>;</p>
+        <p style="text-indent: 0.5in;"><span style="color: #ff0000;">color</span>: <span style="color: #0000ff;">#ffa500</span>;</p>
+        <p>}</p>
+        <p>&#160;</p>
+        <p class="selection">Select this line and note the background is black and the text is gold</p>
+    </body>
+</html>

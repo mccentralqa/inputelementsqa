@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 Menu skin"
+  ComponentType="Menu"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Menu">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical #00ffff #7fffd4</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

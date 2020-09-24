@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2283" MadCap:lastWidth="981" MadCap:conditions="Default.ScreenOnly">
+    <head>
+    </head>
+    <body>
+        <h1>Pseudo classes used for html input &lt;input&gt;</h1>
+        <div class="contain" id="checked">
+            <h3>:checked <span style="font-weight: normal; font-size: 12pt;">(<i>The state of the check box once it has been checked</i>)</span></h3>
+            <p>This first check box is using the :checked pseudo class and should become bigger when clicked into.</p>
+            <p>&#160;</p>
+            <ul class="onlyoftype">
+                <input type="checkbox" name="checked" class="checked"> <span>Pseudo class :checked</span></input>
+            </ul>
+        </div>
+        <div class="contain">
+            <br />
+        </div>
+        <p>&#160;</p>
+        <div class="contain" id="indeterm">
+            <h3>:Indeterminate <span style="font-size: 12pt; font-weight: normal;">(<i>the state of the check box is neither checked or un-checked</i>)</span></h3>
+            <p>This check box is using the :indeterminate pseudo class. </p>
+            <form class="wide">
+                <input type="checkbox" name="green"> <span class="red">Everything in this paragraph should have a green background.</span></input>
+                <br />
+                <script>
+					document.getElementsByName("green")[0].indeterminate = true;
+				</script>
+                <p>&#160;</p>
+            </form>
+            <p>&#160;</p>
+            <ul>
+                <li>The check box should have a "-" in all browsers except IE. In IE, it will be a solid square inside the check box. </li>
+                <li>The  text highlight should be green until the check box is checked.. </li>
+            </ul>
+            <p>&#160;</p>
+        </div>
+        <p>&#160;</p>
+        <div class="contain">
+            <h3 id="enable">:enabled<span style="font-size: 12pt; font-weight: normal;"> (<i>An element is enabled if it can be activated (e.g. selected, clicked on or accept text input) or accept focus </i></span></h3>
+            <h3 id="focus">:focus <span style="font-size: 12pt; font-weight: normal;">(<i>The state of an element that has focus</i>)</span></h3>
+            <h3 id="disable">:disabled <span style="font-size: 12pt; font-weight: normal;">(<i>The state of an element when it is set to disabled</i>)</span></h3>
+            <div>
+                <form class="wide">
+                    <p>Name: <input class="inputColors" /></p>
+                    <p>&#160;</p>
+                    <p>Country: <input class="inputColors" value="United States" disabled="disabled" /></p>
+                </form>
+                <p>&#160;</p>
+                <ul>
+                    <li>Enabled- Name field's background set to yellow and field can be modified</li>
+                    <li>Focus- Name field's background set to green (Click in to the name field to see the change)</li>
+                    <li>Disable- Country field's background set to gray and cannot be modified (Info: When the form is submitted, the disabled information will not sent to the server)</li>
+                </ul>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <p>&#160;</p>
+        <div class="contain">
+            <h3 id="inrange">:in-range <span style="font-size: 12pt; font-weight: normal;">(<i>State of input when all elements with a value that is within a specified range.</i>)</span></h3>
+            <h3 id="outofrange">:out-of-range <span style="font-size: 12pt; font-weight: normal;">(<i>State of input when all elements with a value that is outside a specified range.</i>)</span></h3>
+            <form class="border">
+                <p>Select a number between 0 - 10 <input type="number" min="1" max="9" value="9" />-</p>
+            </form>
+            <p>&#160;</p>
+            <ul>
+                <li>"in-range"- Border around input field should be green because number is between 0 and 10</li>
+                <li>"out-of-range"- Change the number to 11 and border should become red</li>
+            </ul>
+            <p>&#160;</p>
+        </div>
+        <p>&#160;</p>
+        <div class="contain" id="validation">
+            <h3 style="font-style: italic;font-weight: normal;" id="invalid"><b>:invalid</b> <span style="font-size: 12pt; font-weight: normal;">(selects form elements with a value that does not validate according to the element's settings.)</span></h3>
+            <h3 style="font-weight: normal;font-style: italic;" id="valid"><b>:valid </b><span style="font-size: 12pt; font-weight: normal;">(The :valid selector allows you to select &lt;input&gt; elements that do not contain valid content, as determined by its type attribute.)</span>
+            </h3>
+            <form class="border">
+                <p>Email address: <input class="validation" type="email" value="supportEmail" /></p>
+                <p>&#160;</p>
+                <div>
+                    <input type="submit" value="Submit" onclick="alert('Submission Successful')" />
+                </div>
+            </form>
+            <p>&#160;</p>
+            <ul>
+                <li>The border and background color should be red because an invalid email format was placed in the field. </li>
+                <li>Click the "submit" button with an invalid email format and you should get a message pop-up</li>
+                <li>Border/background should turn green when a valid email format is entered (ex. joe@yahoo.com)</li>
+            </ul>
+            <p>&#160;</p>
+        </div>
+        <div class="contain">
+            <h3 style="font-style: italic;" id="required">:required <span style="font-size: 12pt; font-weight: normal;">(<i>Select and style any matched element with the required attribute.</i>)</span></h3>
+            <h3 style="font-style: italic;" id="optional">:optional <span style="font-size: 12pt; font-weight: normal;">(The :optional pseudo class targets inputs (including &lt;select&gt;s) that are not specifically set as required (do not have the required attribute).)</span></h3>
+            <form id="border">
+                <p>First name: <input class="required" required="required" /><i> Required*</i></p>
+                <p>&#160;</p>
+                <p>Country:  <input class="optional" /><i> Optional</i></p>
+                <p>&#160;</p>
+                <ul>
+                    <li>The border around the "First name" field should be red (Denoting a "required" field)</li>
+                    <li>Click the "submit" button with "First name"&#160;field empty and you should get a message pop-up</li>
+                    <li>The border around the "Country" field should be gray and background color should be green</li>
+                </ul>
+                <button onclick="alert('Submission Successful')">Submit</button>
+            </form>
+        </div>
+        <div class="contain">
+            <h3 id="readonly">:read-only<span style="font-size: 12pt; font-weight: normal;"> (<i>The "readonly" attribute stops the user from changing the value of an input (in the case of a text input or password), but doesn’t prevent the user from interacting with the form control content. It’s still possible for the user to click inside the input, tab to it, highlight the text inside it, and even copy and paste that content—it’s just that the value can’t be changed or cleared.</i>)</span></h3>
+            <p>&#160;</p>
+            <form class="superwide">
+                <p>A normal input element:<input class="readonly" value="Click here, press the 'tab' key" />This element can be changed (Not read only).</p>
+                <p>&#160;</p>
+                <p>A readonly input element:<input class="readonly" readonly="readonly" value="hello" />This element cannot be changed. When the form is submitted, the "readonly" information will be sent to the server</p>
+                <p>&#160;</p>
+            </form>
+            <p>&#160;</p>
+            <ul>
+                <li>Background color for "readonly" input element should be yellow.</li>
+                <li>Should be able to tab to it (Click into the "normal input element", then the tab key)</li>
+            </ul>
+            <p>&#160;</p>
+            <p style="font-style: italic;"><strong>Note:</strong> The :read-only selector is not supported in Internet Explorer.</p>
+            <p style="font-style: italic;"><strong>Note:</strong> Firefox supports an alternative, the :-moz-read-only property. </p>
+        </div>
+        <p>&#160;</p>
+        <div class="contain">
+            <h3 style="font-style: italic;" id="readwrite">:read-write<span style="font-size: 12pt; font-weight: normal;"> (The :read-write selector selects form elements which are "readable" and "writeable".</span></h3>
+            <p style="font-style: italic;">Form elements with no "readonly" attribute, and no "disabled" attribute are defined as "read-" and "write-able".<span style="font-size: 12pt; font-weight: normal;">)</span></p>
+            <p>&#160;</p>
+            <form class="superwide">
+                <p>A readonly input element:<input readonly="readonly" value="hello" class="readwrite" /> (Field set to "read-only)</p>
+                <p>&#160;</p>
+                <p>A normal input element:<input value="hello" class="readwrite" /> (field set to read-write)</p>
+                <p>&#160;</p>
+            </form>
+            <p>&#160;</p>
+            <ul>
+                <li>Background color for the "normal input element" should be purple, text should be gold, and the field can be modified</li>
+            </ul>
+            <p>&#160;</p>
+            <p>The :read-write selector selects form elements with no "readonly" attribute.</p>
+            <p>&#160;</p>
+            <p><strong>Note:</strong> <i>The :read-write selector is not supported in Internet Explorer.</i></p>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>
